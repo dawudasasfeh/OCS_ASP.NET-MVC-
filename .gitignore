@@ -1,0 +1,8 @@
+# Visual Studio temporary and cache files
+.vs/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates

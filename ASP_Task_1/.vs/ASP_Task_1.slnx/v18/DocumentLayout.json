@@ -1,38 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-6\\ocs_csharp\\asp_task_1\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|solutionrelative:views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-6\\ocs_csharp\\asp_task_1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-6\\ocs_csharp\\asp_task_1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-6\\ocs_csharp\\asp_task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-6\\ocs_csharp\\asp_task_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-6\\ocs_csharp\\asp_task_1\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-6\\ocs_csharp\\asp_task_1\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|solutionrelative:views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-6\\ocs_csharp\\asp_task_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{72CA2270-5C72-491F-A263-207E121CC1F2}|ASP_Task_1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\migrations\\20260809094603_applicationuserrename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:migrations\\20260809094603_applicationuserrename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|c:\\users\\user\\desktop\\ocs\\week-8\\ocs_asp.net-mvc-\\asp_task_1\\migrations\\20260809093948_identitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B22BAE-66BA-1D9A-7BDA-03ED2A15A7CC}|ASP_Task_1.csproj|solutionrelative:migrations\\20260809093948_identitysetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,28 +70,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Views\\Students\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Students\\Create.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Views\\Students\\Create.cshtml",
-              "RelativeToolTip": "Views\\Students\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-08T09:51:24.26Z",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T11:31:06.523Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-06T09:34:34.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-09T11:32:55.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T09:35:39.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -71,94 +138,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "Controllers\\StudentsController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T09:47:54.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T09:35:39.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T09:32:12.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-06T09:34:34.007Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "Views\\Students\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-08T09:51:24.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Data.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Data.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Data.cs",
               "RelativeDocumentMoniker": "Data.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Data.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Data.cs",
               "RelativeToolTip": "Data.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T09:37:47.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260809094603_ApplicationUserRename.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Migrations\\20260809094603_ApplicationUserRename.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260809094603_ApplicationUserRename.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Migrations\\20260809094603_ApplicationUserRename.cs",
+              "RelativeToolTip": "Migrations\\20260809094603_ApplicationUserRename.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T09:46:03.381Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Views\\Home\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Views\\Home\\Create.cshtml",
-              "RelativeToolTip": "Views\\Home\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-06T11:13:26.176Z",
-              "EditorCaption": ""
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAawA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T09:47:54.712Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T09:32:12.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-09T09:49:56.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-09T09:50:03.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260809093948_IdentitySetup.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Migrations\\20260809093948_IdentitySetup.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260809093948_IdentitySetup.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Migrations\\20260809093948_IdentitySetup.cs",
+              "RelativeToolTip": "Migrations\\20260809093948_IdentitySetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T09:39:48.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-09T09:48:46.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-06T11:13:26.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-06T09:30:38.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T09:30:38.522Z"
             }
           ]
         }

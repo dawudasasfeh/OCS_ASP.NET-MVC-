@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\ASP_Task_1.csproj": {}
+    "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\ASP_Task_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\ASP_Task_1.csproj": {
+    "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\ASP_Task_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\ASP_Task_1.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\ASP_Task_1.csproj",
         "projectName": "ASP_Task_1",
-        "projectPath": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\ASP_Task_1.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\ASP_Task_1.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\OCS\\Week-6\\OCS_CSharp\\ASP_Task_1\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\OCS\\Week-8\\OCS_ASP.NET-MVC-\\ASP_Task_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,14 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[10.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[10.0.10, )"

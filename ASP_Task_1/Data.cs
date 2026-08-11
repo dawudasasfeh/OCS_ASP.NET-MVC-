@@ -1,7 +1,11 @@
-﻿using ASP_Task_1.Models;
+﻿using ASP_Task_1.Data;
+using ASP_Task_1.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-public class AppDbContext : DbContext
+
+public class AppDbContext : IdentityDbContext<ApplicationUser, IdentityRole, string>
 {
     public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options) { }
