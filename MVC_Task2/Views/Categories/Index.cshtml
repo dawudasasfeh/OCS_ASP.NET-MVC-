@@ -1,0 +1,49 @@
+﻿@model List<Category>
+
+@* Updated: Pointing specifically to the distinct Category css map location *@
+<link rel="stylesheet" href="~/css/Categories/index.css" asp-append-version="true" />
+
+<a asp-action="Create" class="btn-create">
+    <svg style="width:16px; height:16px; margin-right:6px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+    </svg>
+    Create Category
+</a>
+
+<div class="table-container">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th style="width: 80px;">Img</th>
+                <th style="text-align: right; width: 160px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Category n in Model)
+            {
+                <tr>
+                    <td class="product-name">@n.Name</td>
+                    <td>
+                        <div class="img-thumbnail-wrapper">
+                            <img src="@n.ImgPath" alt="@n.Name" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+                            <span class="img-fallback">No Img</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="action-cell">
+                            <a asp-action="Edit" asp-route-id="@n.Id" class="btn-action btn-edit">
+                                Edit
+                            </a>
+
+                            @* Fixed context warning alert target string copy text *@
+                            <a asp-action="Delete" asp-route-id="@n.Id" class="btn-action btn-delete" onclick="return confirm('Are you sure you want to delete this category?');">
+                                Delete
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

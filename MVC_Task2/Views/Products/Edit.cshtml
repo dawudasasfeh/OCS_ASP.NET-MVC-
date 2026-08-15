@@ -1,0 +1,56 @@
+﻿@model Product
+
+@* Link to your create form external stylesheet layout folder path *@
+<link rel="stylesheet" href="~/css/Products/Create.css" asp-append-version="true" />
+
+<div class="form-container">
+    <h2 class="form-title">Edit Product</h2>
+
+    <form asp-controller="Products" asp-action="Edit" method="post" enctype="multipart/form-data">
+
+        @* REPAIRED: Binds the critical row primary key Id back to the backend POST engine so your SQL save knows which item to update *@
+        <input type="hidden" asp-for="Id" />
+
+        <div class="form-group">
+            <label>Product ID:</label>
+            @* Displaying the plain text entity key id to the user screen safely *@
+            <input type="text" class="form-control" value="@Model.Id" disabled style="background-color: #f1f5f9; cursor: not-allowed;" />
+        </div>
+
+        <div class="form-group">
+            <label>Name:</label>
+            <input asp-for="Name" class="form-control" placeholder="Enter product name" required />
+        </div>
+
+        <div class="form-group">
+            <label>Price:</label>
+            <input type="number" step="0.01" asp-for="Price" class="form-control" placeholder="0.00" required />
+        </div>
+
+        <div class="form-group">
+            <label>Stock:</label>
+            <input type="number" asp-for="Stock" class="form-control" placeholder="0" required />
+        </div>
+
+        <div class="form-group">
+            <label>Category:</label>
+            <select asp-for="CategoryId" class="form-control" required>
+                <option value="">-- Select Category --</option>
+                @foreach (var item in (List<Category>)ViewBag.Categories)
+                {
+                    <option value="@item.Id" selected="@(item.Id == Model.CategoryId ? "selected" : null)">
+                        @item.Name
+                    </option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Product Image (Leave blank to keep current):</label>
+            @* Image updates on edit views should not be marked as required, otherwise the user has to re-upload the photo every time they edit a price or name *@
+            <input type="file" id="imageFile" name="imageFile" accept="image/*" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn-submit">Save Changes</button>
+    </form>
+</div>

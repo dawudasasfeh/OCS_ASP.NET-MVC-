@@ -1,0 +1,158 @@
+﻿:root {
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --bg-main: #f8fafc;
+    --border-color: #e2e8f0;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --edit-color: #0d9488;
+    --edit-hover: #0f766e;
+    --delete-color: #e11d48;
+    --delete-hover: #be123c;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    padding: 2rem;
+    display: block; /* Disables inherited flex rules from layout containers */
+}
+
+/* Create Category Primary Button */
+.btn-create {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--primary);
+    color: white;
+    padding: 0.625rem 1.25rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: background-color 0.2s;
+    margin-bottom: 1.5rem;
+}
+
+    .btn-create:hover {
+        background-color: var(--primary-hover);
+    }
+
+/* Master Data Table Board */
+.table-container {
+    background: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--border-color);
+    overflow-x: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 0.925rem;
+}
+
+    .styled-table th {
+        background-color: #f1f5f9;
+        color: var(--text-muted);
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 0.05em;
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .styled-table td {
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid var(--border-color);
+        vertical-align: middle;
+    }
+
+    .styled-table tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+    .styled-table tbody tr:hover {
+        background-color: #f8fafc;
+    }
+
+/* Structural Category Label Properties */
+.product-name {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--text-main);
+}
+
+/* Category Image Aspect Ratio Controls */
+.img-thumbnail-wrapper {
+    width: 56px;
+    height: 56px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    background-color: #f8fafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .img-thumbnail-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.img-fallback {
+    display: none;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+/* Row Actions Alignment Settings */
+.action-cell {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+.btn-action {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.45rem 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 0.375rem;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: #f0fdfa;
+    color: var(--edit-color);
+    border-color: #ccfbf1;
+}
+
+    .btn-edit:hover {
+        background-color: var(--edit-color);
+        color: white;
+    }
+
+.btn-delete {
+    background-color: #fff1f2;
+    color: var(--delete-color);
+    border-color: #ffe4e6;
+}
+
+    .btn-delete:hover {
+        background-color: var(--delete-color);
+        color: white;
+    }
