@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 using MVC_Task2.Data;
 using MVC_Task2.Models;
 
@@ -17,12 +18,22 @@ namespace MVC_Task2.Controllers
         }
 
         //READ
-        public IActionResult Index()
+        public IActionResult Index(int? categoryId)
 
         {
             var products = _context.Products.Include(p => p.Category).ToList();
+
+            if (categoryId.HasValue) {
+                products = products.Where(p => p.CategoryId == categoryId).ToList();
+                
+                var Category = _context.Categories.Find(categoryId);
+                ViewBag.CategoryId = categoryId;
+                ViewBag.Category = Category.Name;
+            
+            }
             return View(products);
         }
+
 
         //CREATE
         public IActionResult Create()
@@ -101,6 +112,12 @@ namespace MVC_Task2.Controllers
             _context.Products.Remove(product);
             _context.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+        public IActionResult ViewProduct(int id) {
+            var products = _context.Products.Include(p => p.Category).ToList();
+            var product = products.Find(p => p.Id == id);
+            return View(product);
         }
 
     }
