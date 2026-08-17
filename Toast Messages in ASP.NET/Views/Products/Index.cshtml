@@ -1,0 +1,51 @@
+@model IEnumerable<Toast_Messages_in_ASP.NET.Models.Product>
+
+@{
+    ViewData["Title"] = "Products List";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>📦 Product Management</h2>
+    <a asp-action="Create" class="btn btn-primary">➕ Add New Product</a>
+</div>
+
+<div class="card shadow-sm">
+    <div class="card-body p-0">
+        <table class="table table-hover table-striped mb-0">
+            <thead class="table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>@product.Id</td>
+                            <td class="fw-bold">@product.Name</td>
+                            <td><span class="badge bg-secondary">@product.Category</span></td>
+                            <td>$@product.Price.ToString("F2")</td>
+                            <td class="text-end">
+                                <form asp-action="Delete" asp-route-id="@product.Id" method="post" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this product?');">
+                                    <button type="submit" class="btn btn-sm btn-outline-danger">🗑️ Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" class="text-center text-muted py-4">No products found. Click "Add New Product" to create one.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

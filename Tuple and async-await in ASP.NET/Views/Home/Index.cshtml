@@ -1,0 +1,35 @@
+﻿@model Tuple<Tuple_and_async_await_in_ASP.NET.Models.Student, Tuple_and_async_await_in_ASP.NET.Models.Course>
+
+@{
+    ViewData["Title"] = "Student & Course Details";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4 text-center">Student & Course Information (Using Tuple)</h2>
+
+    <div class="row">
+        <!-- Student Card (Item1) -->
+        <div class="col-md-6">
+            <div class="card border-primary mb-3">
+                <div class="card-header bg-primary text-white">Student Details</div>
+                <div class="card-body">
+                    <p><strong>ID:</strong> @Model.Item1.Id</p>
+                    <p><strong>Name:</strong> @Model.Item1.Name</p>
+                    <p><strong>Age:</strong> @Model.Item1.Age</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Course Card (Item2) -->
+        <div class="col-md-6">
+            <div class="card border-success mb-3">
+                <div class="card-header bg-success text-white">Course Details</div>
+                <div class="card-body">
+                    <p><strong>Course ID:</strong> @Model.Item2.Id</p>
+                    <p><strong>Course Name:</strong> @Model.Item2.Name</p>
+                    <p><strong>Instructor:</strong> @Model.Item2.Instructor</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
